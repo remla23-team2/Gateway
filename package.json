@@ -1,0 +1,24 @@
+{
+  "name": "gateway",
+  "version": "1.0.0",
+  "description": "Gateway between different microservices",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/remla23-team2/Gateway.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/remla23-team2/Gateway/issues"
+  },
+  "homepage": "https://github.com/remla23-team2/Gateway#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "http-proxy-middleware": "^2.0.6",
+    "morgan": "^1.10.0"
+  }
+}
