@@ -1,6 +1,6 @@
 const ROUTES = [
     {
-        url: '/modelservice',
+        url: '/api/modelservice',
         auth: false,
         creditCheck: false,
         rateLimit: {
@@ -11,7 +11,7 @@ const ROUTES = [
             target: process.env.MODEL_SERVICE_URL,
             changeOrigin: true,
             pathRewrite: {
-                [`^/modelservice`]: '',
+                [`^/api/modelservice`]: '',
             },
         }
     },
